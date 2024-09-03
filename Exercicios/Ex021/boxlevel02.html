@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(34, 97, 118);
+            margin: 0px;
+        }
+        header{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+        }
+ 
+        nav {
+            background-color: rgb(145, 143, 143);
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.558);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: blanchedalmond;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: rgb(118, 115, 118);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(74, 73, 75);
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p { /*aqui é para mudar a margem grande do texto*/
+            margin: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!-- cabeçalho (divs semanticas)-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="e">link</a>
+            <a href="e">link</a>
+            <a href="e">link</a>
+            <a href="e">link</a>
+            <a href="e">link</a>
+        </nav>
+    </header>
+    <main> <!-- principal (divs semanticas)-->
+        <section id="assuntos"> 
+
+        </section>
+        <section id="noticias">
+                <article>
+                    <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi quisquam, porro hic nam inventore fugiat obcaecati consequuntur blanditiis delectus suscipit temporibus soluta cumque in sapiente voluptatibus veritatis magni accusamus beatae.</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+                <article>
+
+                </article>
+        </section>
+    </main>
+    <footer> <!-- rodapé (divs semanticas)-->
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+</body>
+</html>
