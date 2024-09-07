@@ -71,7 +71,7 @@ section {
     background-size: cover;
     background-attachment: fixed;
     display: inline-block; 
-    padding: 5px;
+    padding: 8px;
     border-radius: 15px;
     box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.433);
 }
@@ -79,6 +79,7 @@ section {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-attachment: fixed;
+    box-shadow: inset 5px 5px 13px rgba(0, 0, 0, 0.677);
 }
 
 section.img02{
