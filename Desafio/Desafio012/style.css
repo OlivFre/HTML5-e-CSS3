@@ -46,6 +46,7 @@ header > p {
     text-align: center;
     margin-bottom: 11px;
     margin-top: 18px;
+    font-variant: small-caps;
 }
 
 section {
@@ -54,6 +55,7 @@ section {
     font-size: 26px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    /*o padding top e bottom com 10 vh (view hight) aumentou o tamanhod a imagem e ajustou a tela*/
     padding-left: 30px;
     line-height: 2em;
     
