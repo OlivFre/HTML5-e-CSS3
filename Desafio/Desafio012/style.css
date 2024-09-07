@@ -37,6 +37,8 @@ h1 {
     text-align: center;
     margin-top: -6px;
     font-variant: small-caps;
+    font-size: 10vw;
+    /*o font-size com 10vw (view wight) ajusta o tamanho da fonte ao tamanho da tela*/
 }
 
 header > p {
@@ -52,7 +54,7 @@ header > p {
 section {
     font-family: var(--fonte-texto);
     text-align: justify;
-    font-size: 26px;
+    font-size: 4vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     /*o padding top e bottom com 10 vh (view hight) aumentou o tamanhod a imagem e ajustou a tela*/
