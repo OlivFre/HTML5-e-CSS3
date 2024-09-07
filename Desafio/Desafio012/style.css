@@ -83,12 +83,6 @@ section.img02{
     background-attachment: fixed;
 }
 
-.normal{
-    background-color: white;
-    color: black;
-}
-
-
 footer{
     background-color: #272B42;
     color: var(--cor1);
