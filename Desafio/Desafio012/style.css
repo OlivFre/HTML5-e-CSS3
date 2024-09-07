@@ -18,6 +18,11 @@
     margin: 0px;
     padding: 0px;
 }
+
+html, body{
+    min-height: 100vh;
+}
+
 header{
     background-color: var(--cor0);
     padding-top: 40px;
@@ -31,6 +36,7 @@ h1 {
     font-size: 67px;
     text-align: center;
     margin-top: -6px;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -46,9 +52,9 @@ section {
     font-family: var(--fonte-texto);
     text-align: justify;
     font-size: 26px;
-    margin-top: 67px;
-    margin-left: 57px;
-    padding-bottom: 75px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
     
    
@@ -76,6 +82,12 @@ section.img02{
     background-position: right center;
     background-attachment: fixed;
 }
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
 
 footer{
     background-color: #272B42;
