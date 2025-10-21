@@ -14,9 +14,12 @@
 <body>
     <h1>Meu primeiro formulário</h1>
     
-    <form action="cadastro.php" autocomplete="on">
+    <form action="cadastro.php" method="get" autocomplete="on">
+
         <p><label for="inome">Nome:</label> <input type="text" name="Nome" id="inome"></p>
+
         <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="isobrenome"></p>
+
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
@@ -26,9 +29,10 @@
 
 <!--O autocomplete="on/off" liga ou desliga a sugestão de preenchimento automático-->
 
-<!-- label for="(aqui você coloca o nome do id, que sempre tem um 'i' antes do nome)"-->
+<!-- label for="(aqui você coloca o nome do id, que sempre tem um 'i' antes do nome)" -> ele linka o texto com o campo de preenchimento --> 
 
 <!-- method="post" faz com que as informações não aparecem na URL, mas aparece em inspecionar, ou seja, não protege os dados-->
 
 <!--Vai usar o method="GET" quando os dados não forem sensíveis; não pode usar mais de 3k bites, dados sensíveis, envio de fotos-->
+
 <!--Vai usar o method="POST" quando houver dados sensíveis, + 3k bites, e envios de arquivos-->
